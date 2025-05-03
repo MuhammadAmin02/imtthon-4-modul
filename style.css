@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.goat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.header{
+    background-color: #014E56;
+    height: 517px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.header img{
+    margin-left: 55px;
+    margin-bottom: 400px;
+}
+.header div{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     width: 300px;
+     margin-bottom: 400px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.header div button{
+    width: 153px;
+    height: 48px;
+    background: none;
+    color: white;
+    border: 3px solid white;
+    border-radius: 25px;
+}
+
+.header div button:active{
+    background-color: white;
+    color: black;
+}
+
+p{
+    width: 730px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.get{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 300px;
+
+}
+
+main{
+    background-color: #004047;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+.box{
+    background-color: #012F34;
+    width: 350px;
+    height: 274px;
+
+}
+.qw1{
+    position:relative;
+    margin-left: 130px;
+    bottom: -55px;
+}
+
+.door{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+body{
+    background-color: #004047;
+    flex-wrap: wrap;
+}
+
+
+
+.section{
+    background-color: #012F34;
+}
+.h1{
+    color: white;
+    text-align: center;
+}
+
+.fgr{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.boxjon{
+    height: 200px;
+    background-color:#F67E7E;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #004047;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+.boxjon button{
+    width: 153px;
+    height: 48px;
+    background: none;
+    color: #004047;
+    border: 3px solid #004047;
+    border-radius: 25px;
+}
+
+.boxjon :active{
+    background-color: #004047;
+    color: black;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.header div{
+    display: block;
+}
+
+.fgr{
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+@media(max-width:850px) {
+    .get{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    /* .door{
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-wrap: wrap;
+       gap: 40px;
+    } */
+}
+
+
+@media(max-width:450px) {
+    .header div{
+        display: none;
+    }
+
+    .header{
+        flex-wrap: wrap;
+    }
+
+    .get{
+        width: 400px;
+        text-align: center;
+        flex-wrap: wrap;
+
+    }
+
+
+
+}
+
